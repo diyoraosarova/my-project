@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Shaxsiy Sahifam</title>
+    <style>
+        /* Umumiy sahifa ko'rinishi */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Profil kartasi */
+        .card {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 40px 30px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Profil rasmi o'rniga aylana (Avatar) */
+        .avatar {
+            width: 110px;
+            height: 110px;
+            background: #764ba2;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #2d3748;
+        }
+
+        p {
+            font-size: 15px;
+            color: #718096;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        /* Tugmalar (Ijtimoiy tarmoqlar) */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.2s ease-in-out;
+            display: block;
+        }
+
+        .btn-github {
+            background-color: #2d3748;
+            color: white;
+        }
+
+        .btn-github:hover {
+            background-color: #1a202c;
+            box-shadow: 0 5px 15px rgba(45, 55, 72, 0.4);
+        }
+
+        .btn-telegram {
+            background-color: #0088cc;
+            color: white;
+        }
+
+        .btn-telegram:hover {
+            background-color: #0077b3;
+            box-shadow: 0 5px 15px rgba(0, 136, 204, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="avatar">D</div>
+        
+        <h1>Diyora Osarova</h1>
+        <p>Salom! Men telefonda GitHub dasturini o'rganayotgan va veb-dasturlashga qiziqayotgan dasturchiman. Bu mening birinchi mukammal portfolio sahifam!</p>
+        
+        <div class="links">
+            <a href="https://github.com/diyoraosarova" target="_blank" class="btn btn-github">GitHub Profilim</a>
+            <a href="https://t.me/username" target="_blank" class="btn btn-telegram">Telegram kanalim</a>
+        </div>
+    </div>
+
+</body>
+</html>
